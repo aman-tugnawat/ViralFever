@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mangodevelopers.apps.viralfever.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/b00"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="0"
+        />
+
+    <Button
+        android:id="@+id/b12"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/b11"
+        android:layout_alignBottom="@+id/b11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/b02"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:text="0"
+        android:layout_alignParentRight="true"
+         />
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/b10"
+        android:layout_alignBottom="@+id/b10"
+        android:layout_centerHorizontal="true"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/b01"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        />
+
+    <Button
+        android:id="@+id/b20"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="0"
+         />
+
+    <Button
+        android:id="@+id/b22"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/b21"
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+         />
+
+</RelativeLayout>
